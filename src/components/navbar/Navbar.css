@@ -1,0 +1,47 @@
+.navbar {
+    height: 4rem;
+    display: grid;
+    /* background-color: red; */
+    grid-template-columns: auto min-content;
+    box-shadow: 5px 10px 8px #888888;
+    padding: 0 2rem 0 5rem;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    /* z-index: 100; */
+}
+
+.navbar-logo {
+    grid-column: 1;
+    font-size: 2rem;
+    align-self: center;
+    /* background-color: blue; */
+}
+
+.navbar-links {
+    grid-column: 2;
+    display: grid;
+    font-size: 3rem;
+    justify-items: right;
+
+    /* background-color: pink; */
+}
+.navbar-link {
+    padding: 1rem 1rem 0 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4rem;
+}
+
+.navbar-link-about{
+    grid-column: 1;
+}
+
+.navbar-link-blog{
+    grid-column: 2;
+}
+
+.navbar-link-contact{
+    grid-column: 3;
+}
