@@ -5,13 +5,12 @@ import Placeholder from "./placeholder";
 import Footer from "./footer";
 export default class App extends React.Component {
     render(): JSX.Element {
-        const style = {height:'100vh', width: '100vw'}
         return (
-            <div style={style}>
+            <section className="main-section">
                 <Navbar/>
                 <Placeholder/>
                 <Footer/>
-            </div>
+            </section>
         )
     }
 }

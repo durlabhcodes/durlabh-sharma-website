@@ -1,7 +1,17 @@
 .placeholder {
-    display: grid;
-    place-items: center;
-    height: 100%;
-    font-size: 2.5rem;
-    margin: 0 40rem 0 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.placeholder_content {
+    font-family: 'Roboto Slab', serif;
+    font-size: 128px;
+}
+
+.placeholder_content_cheeky {
+    font-size: 10px;
+    color: rgb(140, 177, 177);
 }

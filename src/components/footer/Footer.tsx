@@ -2,10 +2,10 @@ import "./Footer.css"
 
 export const Footer = () => {
     return (
-        <div className="footer">
+        <footer className="footer">
             <div className="footer-content">
-                Built with patience, love and absolutely 0 knowledge of CSS :')
+                A <span className="footer-content__fancy">fancy</span> footer will appear right here
             </div>
-        </div>
+        </footer>
     )
 }

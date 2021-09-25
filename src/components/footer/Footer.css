@@ -3,11 +3,17 @@
     bottom: 0;
     left:0;
     right: 0;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
     padding-bottom: 0.5rem;
 }
 
 .footer-content {
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+
+.footer-content__fancy {
+    color:#3f51b5;
+    font-weight: bold;
+    font-style: italic;
 }
