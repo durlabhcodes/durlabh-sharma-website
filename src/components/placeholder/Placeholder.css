@@ -8,10 +8,16 @@
 
 .placeholder_content {
     font-family: 'Roboto Slab', serif;
-    font-size: 128px;
+    font-size: 2rem;
 }
 
 .placeholder_content_cheeky {
     font-size: 10px;
     color: rgb(140, 177, 177);
+}
+
+@media screen and (min-width: 640px) {
+    .placeholder_content {
+        font-size: 8rem;
+    }
 }
